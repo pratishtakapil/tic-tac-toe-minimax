@@ -6,20 +6,23 @@ Built for beginners who want to understand how AI can make optimal moves in a si
 ---
 
 ## 🧩 Features
-- Play as **X or O** against an intelligent AI  
-- Uses **Minimax algorithm** for decision making  
-- Text-based, works right inside the **terminal**  
+
+- Play as **X or O** against an intelligent AI
+- Uses **Minimax algorithm** for decision making
+- Text-based, works right inside the **terminal**
 - Lightweight and easy to understand (only 3 Python files)
 
 ---
 
 ## 🛠️ Requirements
+
 - Python 3.8 or above  
-(No external libraries needed)
+  (No external libraries needed)
 
 ---
 
 ## 📁 Folder Structure
+
 tic-tac-toe-minimax/
 │
 ├── game.py # Game logic and board handling
@@ -39,7 +42,6 @@ Enter a move number from 0–8 (positions are like this):
 3 | 4 | 5
 --+---+--
 6 | 7 | 8
-
 
 The AI will automatically calculate and make the best move.
 
@@ -64,20 +66,20 @@ The AI picks the move with the best overall score after exploring all possibilit
 🏆 Example Gameplay
 Choose your symbol (X or O): X
 
-  |   |  
+| |  
 --+---+--
-  |   |  
+| |  
 --+---+--
-  |   |  
+| |
 
 Enter your move (0-8): 0
 AI plays 4
 
-X |   |  
+X | |  
 --+---+--
-  | O |  
+| O |  
 --+---+--
-  |   |  
+| |
 
 🧑‍💻 Author
 
